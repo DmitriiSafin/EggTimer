@@ -3,7 +3,7 @@
 //  EggTimer
 //
 //  Created by Дмитрий on 25.01.2023.
-//
+// test git
 
 import UIKit
 import AVFoundation
@@ -44,6 +44,5 @@ class ViewController: UIViewController {
         player = try! AVAudioPlayer(contentsOf: url)
         player.play()
     }
-        
 }
 
