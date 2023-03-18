@@ -28,7 +28,6 @@ class ViewController: UIViewController {
         
         timer = Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) {_ in
             if time > 0 {
-                print(time)
                 time -= 1
                 self.progressBar.progress = 1.0 - Float(time)/Float(time100)
             } else {

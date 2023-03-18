@@ -14,6 +14,8 @@
 		2834061C2981037100FD20F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2834061B2981037100FD20F8 /* Assets.xcassets */; };
 		2834061F2981037100FD20F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2834061D2981037100FD20F8 /* LaunchScreen.storyboard */; };
 		28340627298103BC00FD20F8 /* alarm_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 28340626298103BC00FD20F8 /* alarm_sound.mp3 */; };
+		286F259B29C59E430018B7F8 /* Screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 286F259A29C59E430018B7F8 /* Screen.png */; };
+		286F259D29C59E780018B7F8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 286F259C29C59E770018B7F8 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		2834061E2981037100FD20F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		283406202981037100FD20F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28340626298103BC00FD20F8 /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm_sound.mp3; sourceTree = "<group>"; };
+		286F259A29C59E430018B7F8 /* Screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screen.png; sourceTree = "<group>"; };
+		286F259C29C59E770018B7F8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +46,8 @@
 		283406062981037000FD20F8 = {
 			isa = PBXGroup;
 			children = (
+				286F259C29C59E770018B7F8 /* README.md */,
+				286F259929C59E2B0018B7F8 /* ReadmeResources */,
 				283406112981037000FD20F8 /* EggTimer */,
 				283406102981037000FD20F8 /* Products */,
 			);
@@ -68,6 +74,14 @@
 				283406202981037100FD20F8 /* Info.plist */,
 			);
 			path = EggTimer;
+			sourceTree = "<group>";
+		};
+		286F259929C59E2B0018B7F8 /* ReadmeResources */ = {
+			isa = PBXGroup;
+			children = (
+				286F259A29C59E430018B7F8 /* Screen.png */,
+			);
+			path = ReadmeResources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +142,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				286F259D29C59E780018B7F8 /* README.md in Resources */,
+				286F259B29C59E430018B7F8 /* Screen.png in Resources */,
 				2834061F2981037100FD20F8 /* LaunchScreen.storyboard in Resources */,
 				2834061C2981037100FD20F8 /* Assets.xcassets in Resources */,
 				28340627298103BC00FD20F8 /* alarm_sound.mp3 in Resources */,
